@@ -32,3 +32,15 @@ GitHub Steps:
 - 'git add .'
 - 'git commit -m "Any Message"'
 - 'git push'
+
+## Branching:
+
+1) To check on which branch you are 
+	eg: git branch
+2) To move & create new branch 
+	eg: git checkout -b task/development-branch 
+	if branch already exist: 
+		eg: 'git checkout <Bracnh-name>'
+3) git add .
+4) git commit -m "Branch commit"
+5) git push -u origin task/development-branch
